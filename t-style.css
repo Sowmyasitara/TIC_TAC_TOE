@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("./t-image.jpg");
+    background-size:auto;
+}
+
+
+
+h1{
+    text-align: center;
+    color:azure
+}
+
+.container-game{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2vmin;
+    background-color: azure;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: rgba(255, 231, 202, 0.961);
+    border:none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
+    font-size: 8vmin;
+    color:rgb(255, 255, 255);
+    
+}
+#reset-btn{
+    padding: 1rem;
+    font-size:1.5rem;
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+}
+#new-btn{
+    padding: 1rem;
+    font-size:1.5rem;
+    background-color: rgb(254, 254, 255);
+    color:whitesmoke;
+    
+
+}
+#msg{
+    color:rgb(255, 123, 0);
+    font-size: 6vmin;
+
+}
+.msg-container{
+    height: 30vmin;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+#button{
+    text-align: center;
+}
